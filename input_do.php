@@ -19,7 +19,7 @@
 <h2>Practice</h2>
 <pre>
   <?php
-  try {
+
     require("dbconnect.php");
 
     $statement = $db->prepare('INSERT INTO memos SET memo=?, created_at=NOW()');
