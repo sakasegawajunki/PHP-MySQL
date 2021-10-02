@@ -28,7 +28,6 @@
   $statement->execute(array($_POST['memo']));
   echo "メッセージが登録されました";
 
-
   ?>
 
 
